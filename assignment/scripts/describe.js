@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to 'Dane'. 
+// We check if the name is equal to 'Mary'. It is not equal to 'Mary' as the variable name is set to 'Dane'.
+// We console log 'How do you do?'.
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variables secret and code and set code to the number 123.
+// We check if code is equal to the number 123. It is, so secret is then set to the string 'super' and code is doubled.
+// We then check if code is greater than 250. It is not (246). 
+// We console log 'super'.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variables isStudent, set to true, age, set to the number 34, and zip, set to the number 55407.
+// We check if they are a student with a zip over 80000. They are not so we check if they are not a student OR over the age of 30.
+// They are a student BUT they are over the age of 30.
+// We console log 'What are your hobbies?'
 
 //CODE
 /*
@@ -137,6 +137,9 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+
+//FIX - (line 133 and 134) colorOne and colorTwo are set to the wrong colors. Need to swap red with blue.
+// (line 138) Only colorOne is being changed to 'purple'. colorTwo also needs to be changed if the condition is true. 
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -146,6 +149,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
+// FIX - need to swich the ||(or) with &&(and) so that both conditions need to be true in order for the
+// output to be correct. 
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -159,6 +165,9 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - need to switch the <= (less than or equal to) with the >= (greater than or equal to). 
+// Right now it says "if the minAge is less than or equal to age, console log 'enter'". Needs to be greater than or equal to.
 
 if(minAge <= age) {
   console.log('no entry');
