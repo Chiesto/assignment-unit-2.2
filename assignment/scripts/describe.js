@@ -83,7 +83,7 @@ let zip = 55407;
 
 if (isStudent === true && zip > 80000 ) {
   console.log(`You're a student on the West Coast!`);
-} else if (isStudent === false || age < 30) {
+} else if (isStudent === false || age > 30) {
   console.log('What are your hobbies?');
 } else if (isStudent === true) {
   console.log('Welcome to Prime!');
@@ -150,7 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-// FIX - need to swich the ||(or) with &&(and) so that both conditions need to be true in order for the
+// FIX - need to switch the ||(or) with &&(and) so that both conditions need to be true in order for the
 // output to be correct. 
 
 if (temp > 39 || time >= 4) {
@@ -166,8 +166,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-//FIX - need to switch the <= (less than or equal to) with the >= (greater than or equal to). 
-// Right now it says "if the minAge is less than or equal to age, console log 'enter'". Needs to be greater than or equal to.
+//FIX - We need to swap the console log statements. The 'if' condition says 'if the minimum age is less than or equal to age (21), console log "no entry".
+// It should be the opposite. If they're 21 or over they are allowed entry. But if they're not 21 or over (the else statement) they are not allowed entry. 
 
 if(minAge <= age) {
   console.log('no entry');
